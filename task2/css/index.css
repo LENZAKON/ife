@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+html{
+    color: #222;
+}
+
+body{
+    font-size: 1.2rem;
+    line-height: 2;
+    background-color: #f7f7f7;
+}
+
+header{
+
+    color: white;
+    background-color: #222;
+}
+
+header img{
+    display: inline;
+    margin: 0.5rem 0 0 1rem;
+
+}
+
+header ul{
+    font-size: 70%;
+    display: inline;
+}
+
+header ul li{
+    float: right;
+    margin: 1.2rem 1rem 0;
+
+}
+
+header ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+section{
+    border: 2px solid gainsboro;
+    margin: 1.7rem;
+    background-color: white;
+    box-shadow: 3px 3px 2px gray;
+    padding: 1rem;
+}
+
+section h3,section div{
+    color: gray;
+}
+
+section p{
+    text-indent: 50px;
+}
+
+section ul{
+    margin-left: 2rem;
+    list-style: none;
+}
+
+.picture{
+    display: inline-block;
+    border: 1px solid gray;
+    color: black;
+    margin: 1rem 1rem 1rem 3rem;
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 0.7rem 1rem 1rem;
+}
+
+section div img{
+    width: 100px;
+}
+
+section ol{
+    margin-left: 3rem;
+}
+
+section table{
+    text-align: center;
+    width: 100%;
+    border-collapse:collapse;
+    border: 2px solid gray;
+}
+
+.table-header{
+    color: whitesmoke;
+    font-weight: bold;
+    background-color: #222;
+}
+
+.table-footer{
+    font-weight: bold;
+    background-color: gainsboro;
+}
+
+section .data{
+    margin-top: 2rem;
+    text-align: center;
+    color: black;
+}
+
+ .input{
+    height: 1.5rem;
+}
+
+.tishi{
+    color: gray;
+    font-size: 1rem;
+}
+
+.email-adress-ts{
+    margin-left: 9.8rem;
+}
+
+.input-pw{
+    margin-left: 2.3rem;
+}
+
+.pw-ts{
+    margin-left: 9rem;
+}
+
+.city{
+    margin-left: -2rem;
+    color: black;
+}
+
+.hobby{
+    color: black;
+    margin-left: 5rem;
+}
+
+.type{
+    margin-right: 0.6rem;
+}
+
+.des{
+    color: black;
+    margin-left: 22rem;
+}
+
+button{
+    width: 100%;
+    border-radius: 10px;
+    color: whitesmoke;
+    background-color: #5f98ff;
+    height: 3rem;
+    font-size: 1.7rem;
+}
