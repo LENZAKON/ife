@@ -1,0 +1,50 @@
+
+.clearfix {
+    overflow: auto;
+}
+
+section{
+    background-color: #eee;
+    border: 1px solid #999;
+    padding: 20px;
+}
+
+.left{
+    border: 1px solid #999;
+    background-color: white;
+    width: 200px;
+    height: 150px;
+    float: left;
+}
+
+.logo-team{
+    float: left;
+    margin: 20px;
+}
+
+.left span{
+    position: relative;
+    top: 1rem;
+}
+
+.right{
+    float: right;
+    border: 1px solid #999;
+    background-color: white;
+    width: 120px;
+}
+
+.center{
+    border: 1px solid #999;
+    background-color: white;
+    margin: 0 150px 0 230px;
+}
+
+.self-logo{
+    margin: 20px;
+}
+
+
+
+
+

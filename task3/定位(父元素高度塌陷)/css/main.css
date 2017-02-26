@@ -1,0 +1,71 @@
+
+/*.clearfix:before,*/
+/*.clearfix:after {*/
+    /*content: " ";*/
+    /*display: table;*/
+/*}*/
+
+/*.clearfix:after{*/
+    /*clear: both;*/
+/*}*/
+
+.clearfix {
+    overflow: auto;
+}
+
+
+section{
+    background-color: #eee;
+    border: 1px solid #999;
+    padding: 20px;
+    height: auto;
+}
+
+.left{
+    border: 1px solid #999;
+    background-color: white;
+  /*  display: inline-block; */
+    width: 200px;
+    height: 150px;
+    position: absolute;
+
+
+}
+
+.logo-team{
+   /* float: left; */
+    margin: 20px;
+}
+
+.left span{
+   /* position: relative;*/
+  /*  top: 1rem;*/
+}
+
+.center{
+    border: 1px solid #999;
+    background-color: white;
+  /*  display: inline-block; */
+  /*  position: relative;
+       top: 30px;
+        */
+
+
+    margin-left: 250px;
+    margin-right: 140px;
+}
+
+.right{
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    border: 1px solid #999;
+    background-color: white;
+
+
+}
+
+
+
+
+
