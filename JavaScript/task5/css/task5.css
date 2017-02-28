@@ -1,0 +1,19 @@
+#button{
+    display: inline-block;
+}
+
+ul{
+    display: flex;
+    justify-content:center;
+    align-content: flex-end;
+    align-items: flex-end;
+}
+
+
+li{
+   list-style: none;
+    display: inline-block;
+    background-color: #5f98ff;
+    width: 30px;
+    margin-left: 5px;
+}
