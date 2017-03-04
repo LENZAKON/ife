@@ -149,12 +149,12 @@ $("btn").onclick = function () {
         var test1 = /^(rgb\(255,)/;
         var test2 = /^(rgb\(128,)/;
         if (test1.test(window.getComputedStyle(inp[i], null).getPropertyValue("border-color")) || test2.test(window.getComputedStyle(inp[i], null).getPropertyValue("border-color"))) {
-            alert("提交成功");
+            alert("提交失败");
             break;
         }
     }
     if (i == inp.length) {
-        alert("提交失败");
+        alert("提交成功");
     }
 }
 
