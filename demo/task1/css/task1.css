@@ -1,0 +1,44 @@
+
+input{
+    width: 230px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+label{
+    display: block;
+    color: gray;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+
+button{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #9ab9e2;
+    border: 1px solid transparent;
+    margin-left: 30px;
+}
+
+.kong-input{
+    border-color: red;
+}
+
+.kong-lable{
+    color: red;
+}
+
+.creact-input{
+    border-color: #75b86b;
+}
+
+.creact-lable{
+    color: #75b86b;
+}
+
+
+
+
