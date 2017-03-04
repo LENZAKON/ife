@@ -1,0 +1,83 @@
+div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+section{
+    line-height: 3px;
+    width: 300px;
+    text-align: right;
+    margin-top: 40px;
+    height: 40px;
+}
+
+h3{
+    display: inline-block;
+}
+
+input{
+    border-radius: 10px;
+    border: 1px solid gray;
+    height: 30px;
+    width: 210px;
+
+}
+
+
+label{
+    display: block;
+    text-align: left;
+    margin-left: 88px;
+    line-height: 35px;
+    color: gray;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #9ab9e2;
+    border: 1px solid transparent;
+    position: relative;
+    left: 200px;
+    top: 30px;
+}
+
+/*
+失去焦点为空时
+*/
+.kong-input{
+    border-color: rgb(255,0,0);
+}
+
+.kong-lable{
+    color: red;
+}
+
+/*
+失去焦点正确时
+ */
+.creact-input{
+    border-color: #75b86b;
+}
+
+.creact-lable{
+    color: #75b86b;
+}
+
+/*
+得到焦点时
+ */
+.get-input{
+    border-color: gray;
+}
+
+.get-lable{
+    color: gray;
+}
+
+
+
+
