@@ -1,0 +1,18 @@
+table{
+    border-collapse:collapse;
+    width: 500px;
+    height: 100px;
+    text-align: center;
+    margin-left: 30%;
+    margin-top: 18%;
+}
+
+span{
+    cursor: pointer;  /*鼠标移动到上面改变样式*/
+}
+
+thead{
+    background-color: #5a5b5b;
+    color: #ffffff;
+
+}
