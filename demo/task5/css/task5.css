@@ -1,0 +1,24 @@
+#red_mod{
+    height: 30px;
+    width: 30px;
+    background-color: red;
+    position: absolute;
+    top: 39px;
+    left: 39px;
+    transition: 1s;
+}
+
+#blur_mod{
+    height: 10px;
+    width: 30px;
+    background-color: blue;
+    position: absolute;
+}
+
+#caozuo{
+    position: absolute;
+    top: 70px;
+    left: 400px;
+
+
+}
